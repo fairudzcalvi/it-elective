@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav>
+    <span onclick="openNav()"> ☰</span>
+    <img src="websiteLogo.png" alt="Logo">
+  </nav>
+  
+  <div id="mySidenav" class="sidenav">
+    <div class="nav2">
+      <a href="javascript:void(0)" onclick="closeNav()">☰</a>
+
+    </div>
+    
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Calendar</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Tasks</a></li>
+
+    </ul>
+  </div>
+  
+
+    <div class="mainContent">
+        <div class="dashboard">
+            <div class="box">
+                <h3>Total Tasks</h3>
+                <p>0</p>
+            </div>
+            <div class="box">
+                <h3>Total Projects</h3>
+                <p>0</p>
+            </div>
+        </div>
+
+        <div class="projectProg">
+            <h3>Project Progress</h3>
+            <div class="task">
+                <span>Task 1</span>
+                <button class="view">View</button>
+            </div>
+            <div class="task">
+                <span>Task 2</span>
+                <button class="view">View</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
